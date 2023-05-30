@@ -110,7 +110,7 @@ function Contact() {
               decoraciones únicas!
             </p>
             <div className="w-full flex justify-around">
-              <Link to="https://web.whatsapp.com/" target="blank_">
+              <Link to="https://wa.link/u7mrob" target="blank_">
                 <img className="w-12" src={whatsapp} alt="" />
               </Link>
               <Link
@@ -119,9 +119,9 @@ function Contact() {
               >
                 <img className="w-12" src={instagram} alt="" />
               </Link>
-              <Link to="https://mail.google.com/mail" target="blank_">
+              <a href="mailto:daniellabdp1991@gmail.com" target="blank_">
                 <img className="w-12" src={gmail} alt="" />
-              </Link>
+              </a>
             </div>
           </div>
         </div>
@@ -190,7 +190,7 @@ function Contact() {
               </div>
             </form>
             <div className="w-full flex sm:hidden justify-around">
-              <Link to="https://web.whatsapp.com/" target="blank_">
+              <Link to="https://wa.link/u7mrob" target="blank_">
                 <img className="w-12" src={whatsapp} alt="" />
               </Link>
               <Link
@@ -199,9 +199,9 @@ function Contact() {
               >
                 <img className="w-12" src={instagram} alt="" />
               </Link>
-              <Link to="https://mail.google.com/mail" target="blank_">
+              <a href="mailto:daniellabdp1991@gmail.com" target="blank_">
                 <img className="w-12" src={gmail} alt="" />
-              </Link>
+              </a>
             </div>
           </div>
         </div>
