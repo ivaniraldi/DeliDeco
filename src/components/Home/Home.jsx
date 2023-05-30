@@ -43,7 +43,9 @@ function Home() {
             </motion.div>
           </div>
         </motion.div>
-              <p
+        
+              <a
+                href="/catalogo"
                   className="sm:hidden inline-block mt-8 w-full px-5 py-4 text-2xl font-medium text-center transition duration-200  ease"
                   data-primary="blue-600"
                   style={{
@@ -51,7 +53,7 @@ function Home() {
                   }}
                 >
                   Comenzar
-                </p>
+                </a>
 
 
 

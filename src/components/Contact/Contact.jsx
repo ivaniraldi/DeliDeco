@@ -99,7 +99,7 @@ function Contact() {
           <div className="flex flex-col items-start space-y-8 tracking-tight lg:max-w-3xl">
             <div className="relative">
               <p className="mb-2 font-medium text-gray-700 uppercase">
-                Work smarter
+                Daniella Fernanda
               </p>
               <h2 className="text-5xl font-bold text-gray-900 xl:text-6xl">
                 ¡Celebra en grande, decora con estilo!
