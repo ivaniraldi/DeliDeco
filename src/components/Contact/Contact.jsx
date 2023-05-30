@@ -95,7 +95,7 @@ function Contact() {
         transition={{ duration: 0.3, ease: "easeInOut" }}
         className="flex mt-6"
       >
-        <div className="relative lg:flex flex-col items-center justify-center w-full h-full px-10 my-20 lg:px-16 lg:my-0 ">
+        <div className="hidden lg:flex flex-col items-center justify-center w-full h-full px-10 my-20 lg:px-16 lg:my-0 ">
           <div className="flex flex-col items-start space-y-8 tracking-tight lg:max-w-3xl">
             <div className="relative">
               <p className="mb-2 font-medium text-gray-700 uppercase">
@@ -189,6 +189,20 @@ function Contact() {
                 </button>
               </div>
             </form>
+            <div className="w-full flex sm:hidden justify-around">
+              <Link to="https://web.whatsapp.com/" target="blank_">
+                <img className="w-12" src={whatsapp} alt="" />
+              </Link>
+              <Link
+                to="https://www.instagram.com/dalidecoshop/"
+                target="blank_"
+              >
+                <img className="w-12" src={instagram} alt="" />
+              </Link>
+              <Link to="https://mail.google.com/mail" target="blank_">
+                <img className="w-12" src={gmail} alt="" />
+              </Link>
+            </div>
           </div>
         </div>
       </motion.div>

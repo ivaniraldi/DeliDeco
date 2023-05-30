@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 function NavBar() {
   return (
     <div className="w-full h-16  grid grid-cols-2 border-b">
-      <div className=" flex ml-16 mt-2">
+      <div className=" flex ml-10 mt-2">
         <Link to={"/"}>
         <p className="text-4xl font-bold" style={{fontFamily:"Dancing Script"}}>Dali</p>
         </Link>
@@ -16,7 +16,7 @@ function NavBar() {
         <p className="uppercase underline hidden">Servicios</p>
         </Link>
         <Link to={"/contact"}>
-        <p className="uppercase underline">Contacto</p>
+        <p className="uppercase underline mr-2">Contacto</p>
         </Link>
       </div>
     </div>

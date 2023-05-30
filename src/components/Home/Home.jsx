@@ -3,11 +3,13 @@ import img from "./Home.jpeg";
 import { motion } from "framer-motion";
 import Footer from "../Footer/Footer";
 import InstagramFeed from "../InstagramFeed/IgFeed";
+import banner from "../../assets/banner.jpg"
 
 function Home() {
   return (
     <div id="Home">
       <NavBar></NavBar>
+      <img className="flex sm:hidden" src={banner} alt="" />
       <div className="">
         <motion.div
           className="mx-16 my-4 flex h-auto "
@@ -31,8 +33,8 @@ function Home() {
               animate={{ scale: 1, rotate: 0, opacity: 1 }}
               transition={{ duration: 0.3, ease: "easeInOut" }}
             >
-              <motion.h1 className="font-bold text-6xl border-b" style={{fontFamily:"Dancing Script"}}>
-                Dali Decoraciones
+              <motion.h1 className="font-bold text-6xl border-b mt-4 sm:mt-0" style={{fontFamily:"Dancing Script"}}>
+              <span className="hidden sm:inline">Dali Decoraciones</span> 
               </motion.h1>
               <p className="w-72 mt-4 text-2xl" style={{fontFamily:"Oswald"}}>
                 Hacemos decoraciones para tus eventos y mas... <br /> Mira nuestro
@@ -41,6 +43,15 @@ function Home() {
             </motion.div>
           </div>
         </motion.div>
+              <p
+                  className="sm:hidden inline-block mt-8 w-full px-5 py-4 text-2xl font-medium text-center transition duration-200  ease"
+                  data-primary="blue-600"
+                  style={{
+                    background: "#efd4d1",
+                  }}
+                >
+                  Comenzar
+                </p>
 
 
 

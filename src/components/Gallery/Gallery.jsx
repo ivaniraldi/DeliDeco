@@ -8,16 +8,16 @@ function Gallery() {
       <NavBar></NavBar>
       <div>
         <motion.div
-          className="grid grid-cols-2 border py-4"
+          className="flex lg:grid lg:grid-cols-2 border py-4"
           initial={{ scale: 0.8, opacity: 0 }}
           animate={{ scale: 1, rotate: 0, opacity: 1 }}
           transition={{ duration: 0.7, ease: "easeInOut" }}
         >
           <div id="Catalogo"></div>
           <div className="flex justify-center">
-            <p className="text-xl underline">
+            <p className="ml-2 text-xl underline">
               Filtrar:
-              <select
+              <span><select
                 style={{
                   background: "#efd4d1",
                   padding: "8px",
@@ -33,11 +33,12 @@ function Gallery() {
                 <option value="accesorios">Accesorios</option>
                 <option value="ropa">Ropa</option>
               </select>
+              </span>
             </p>
           </div>
         </motion.div>
         <div className="flex justify-center my-4">
-          <div className="grid grid-cols-3 gap-12">
+          <div className="grid grid-cols-3 gap-4 ">
             <a
               href="https://www.instagram.com/dalidecoshop/"
               target="_blank"
@@ -49,13 +50,15 @@ function Gallery() {
                   /* Otra propiedad de estilo opcional */
                   backgroundSize: "cover",
                   backgroundPosition: "center",
+                  width:"28vw",
+                  height:"28vw"
                 }}
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 1.3 }}
-                className="w-80 h-80 rounded-xl"
+                className="rounded-xl"
               />
             </a>
 
@@ -70,13 +73,15 @@ function Gallery() {
                   /* Otra propiedad de estilo opcional */
                   backgroundSize: "cover",
                   backgroundPosition: "center",
+                  width:"28vw",
+                  height:"28vw"
                 }}
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 1.3 }}
-                className="w-80 h-80 rounded-xl"
+                className="rounded-xl"
               />
             </a>
 
@@ -91,13 +96,15 @@ function Gallery() {
                   /* Otra propiedad de estilo opcional */
                   backgroundSize: "cover",
                   backgroundPosition: "center",
+                  width:"28vw",
+                  height:"28vw"
                 }}
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 1.3 }}
-                className="w-80 h-80 rounded-xl"
+                className="rounded-xl"
               />
             </a>
 
@@ -112,13 +119,15 @@ function Gallery() {
                   /* Otra propiedad de estilo opcional */
                   backgroundSize: "cover",
                   backgroundPosition: "center",
+                  width:"28vw",
+                  height:"28vw"
                 }}
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 1.3 }}
-                className="w-80 h-80 rounded-xl"
+                className="rounded-xl"
               />
             </a>
 
@@ -133,13 +142,15 @@ function Gallery() {
                   /* Otra propiedad de estilo opcional */
                   backgroundSize: "cover",
                   backgroundPosition: "center",
+                  width:"28vw",
+                  height:"28vw"
                 }}
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 1.3 }}
-                className="w-80 h-80 rounded-xl"
+                className="rounded-xl"
               />
             </a>
 
@@ -154,13 +165,15 @@ function Gallery() {
                   /* Otra propiedad de estilo opcional */
                   backgroundSize: "cover",
                   backgroundPosition: "center",
+                  width:"28vw",
+                  height:"28vw"
                 }}
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 1.3 }}
-                className="w-80 h-80 rounded-xl"
+                className="rounded-xl"
               />
             </a>
 
@@ -175,13 +188,15 @@ function Gallery() {
                   /* Otra propiedad de estilo opcional */
                   backgroundSize: "cover",
                   backgroundPosition: "center",
+                  width:"28vw",
+                  height:"28vw"
                 }}
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 1.3 }}
-                className="w-80 h-80 rounded-xl"
+                className="rounded-xl"
               />
             </a>
 
@@ -196,13 +211,15 @@ function Gallery() {
                   /* Otra propiedad de estilo opcional */
                   backgroundSize: "cover",
                   backgroundPosition: "center",
+                  width:"28vw",
+                  height:"28vw"
                 }}
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 1.3 }}
-                className="w-80 h-80 rounded-xl"
+                className="rounded-xl"
               />
             </a>
 
@@ -217,13 +234,15 @@ function Gallery() {
                   /* Otra propiedad de estilo opcional */
                   backgroundSize: "cover",
                   backgroundPosition: "center",
+                  width:"28vw",
+                  height:"28vw"
                 }}
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 1.3 }}
-                className="w-80 h-80 rounded-xl"
+                className="rounded-xl"
               />
             </a>
           </div>
