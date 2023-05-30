@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Bykars';
+    src: url('/src/font1.ttf') format('truetype');
+  }
+  
+  .Bykars {
+    font-family: 'Bykars', sans-serif;
+  }
