@@ -17,12 +17,16 @@ function Gallery() {
   return (
     <div >
       <NavBar></NavBar>
+      <div className="w-full flex justify-center items-center">
+        <p>Desliza para ver mas!    </p>
+
+      </div>
 
       <Swiper
           id='swiper'
           spaceBetween={0}
           slidesPerView={1}
-          className="mt-6"
+          className="mt-2"
           loop={true} >
           <SwiperSlide key="1">
             <Hoja1></Hoja1>
