@@ -1,6 +1,6 @@
-# DeliDeco 🎉
+# DaliDecoraciones 🎉
 
-**DeliDeco** es una aplicación web desarrollada con **React**, **Bootstrap** y **EmailJS**, diseñada para mostrar los trabajos de una decoradora de fiestas y permitir a los clientes contactarla fácilmente por correo electrónico. ¡Más de **50 ventas concretadas** a través de la web! 🚀
+**DaliDecoraciones** es una aplicación web desarrollada con **React**, **Bootstrap** y **EmailJS**, diseñada para mostrar los trabajos de una decoradora de fiestas y permitir a los clientes contactarla fácilmente por correo electrónico. ¡Más de **50 ventas concretadas** a través de la web! 🚀
 
 ## 🌟 Características
 - 📸 **Galería de trabajos** para exhibir las decoraciones.
